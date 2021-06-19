@@ -1,1 +1,1 @@
-web: gunicorn test_drt_api.wsgi
+web: gunicorn test_drf_api.wsgi
