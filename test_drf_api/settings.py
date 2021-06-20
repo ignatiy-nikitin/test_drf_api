@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'w$f60)%m_h5)&x3sg7i%2i@4=l^$yk=4%)_&6j2_1&#@ffa+8%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['immense-wave-67069.herokuapp.com', '127.0.0.1']
 
