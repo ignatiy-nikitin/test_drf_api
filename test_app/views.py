@@ -17,3 +17,13 @@ class FirstApiView(APIView):
 
     def post(self, request, format=None):
         return Response({'message': 'post from FirstApiView'})
+
+
+class MainApiView(APIView):
+    def get(self, request, format=None):
+        # snippets = Snippet.objects.all()
+        # serializer = SnippetSerializer(snippets, many=True)
+        return Response({'message': 'get from MainApiView'})
+
+    def post(self, request, format=None):
+        return Response({'message': 'post from MainApiView'})
